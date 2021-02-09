@@ -1,4 +1,4 @@
-# Serach titles app
+# Search titles app
 
 ## Requirements
 
@@ -7,11 +7,18 @@
 
 ## Running the app
 
-1. To run app in `dev` mode run `npm start`
-2. To build for production `npm run build`
-3. To test the app run `npm test`
+Create `.env.local` file with following keys:
 
-## Potenial futher improvements
+```
+REACT_APP_API_BASE_URL
+REACT_APP_API_KEY
+```
+
+- To run app in `dev` mode run `npm start`
+- To build for production `npm run build`
+- To test the app run `npm test`
+
+## Potential further improvements
 
 1. Add pagination
 2. Add e2e test eg. using `cypress`
